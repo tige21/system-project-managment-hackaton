@@ -2,11 +2,11 @@ import React, {useEffect} from 'react';
 import classNames from 'classnames';
 import {DraggableSyntheticListeners, UniqueIdentifier} from '@dnd-kit/core';
 import type {Transform} from '@dnd-kit/utilities';
-import typeTask from '../../assets/taskTypeIcons/typeTask.svg';
-import typeEpic from '../../assets/taskTypeIcons/typeEpic.svg';
-import typeBug from '../../assets/taskTypeIcons/typeBug.svg';
-import typeStory from '../../assets/taskTypeIcons/typeStory.svg';
-import typeSubtask from '../../assets/taskTypeIcons/typeSubtask.svg';
+import typeTask from '../../../../assets/taskTypeIcons/typeTask.svg';
+import typeEpic from '../../../../assets/taskTypeIcons/typeEpic.svg';
+import typeBug from '../../../../assets/taskTypeIcons/typeBug.svg';
+import typeStory from '../../../../assets/taskTypeIcons/typeStory.svg';
+import typeSubtask from '../../../../assets/taskTypeIcons/typeSubtask.svg';
 import styles from './Task.module.scss';
 import { Avatar } from 'antd';
 
