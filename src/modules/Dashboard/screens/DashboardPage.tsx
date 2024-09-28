@@ -1,11 +1,10 @@
 import React from 'react';
+import {Dashboard} from "../components/Dashboard/Dashboard.tsx";
 
 const DashboardPage: React.FC = () => {
   return (
     <div>
-      <h1>Dashboard - Task Board</h1>
-      {/* Добавьте сюда компонент для отображения доски задач */}
-      <p>Here you can manage your tasks...</p>
+      <Dashboard/>
     </div>
   );
 };
